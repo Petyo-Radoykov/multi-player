@@ -1,0 +1,166 @@
+body { 
+    overflow-x: hidden; 
+    overflow-y: hidden;
+	
+	/*-webkit-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	transform: translateZ(0);*/
+}
+
+.container{
+	/*position: absolute;*/
+	position: fixed;
+	
+	width: 1200px;
+	height: 800px;
+	
+	padding: 0px;
+	
+	left: 50%;
+	top: 50%;
+	margin-left: -600px;
+	margin-top: -400px;
+}
+
+.box{
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+	padding: 0px;
+	margin: 0px;
+	
+	background-color:pink;	
+}
+
+#id0{
+	transform: translate(480px, 149px) rotate(0deg);
+    height: 20px;
+    width: 20px;
+}
+
+#id1{
+	transform: translate(190px, 170px) rotate(0deg);
+    height: 10px;
+    width: 600px;
+}
+
+#id2{
+	transform: translate(90px, 400px) rotate(0deg);
+    height: 10px;
+    width: 200px;
+}
+
+#id3{
+	transform: translate(690px, 400px) rotate(0deg);
+    height: 10px;
+    width: 200px;
+}
+
+
+.weight{ 
+	height: 30px;
+	width: 130px;
+	
+	padding: 0px;
+	
+	margin: 0px;
+	 
+	margin-top: 10px;
+	margin-left: 35px;
+	
+	background-color:blue;	
+}
+
+.holder{
+	position: absolute;
+	border: 1px solid grey;
+	
+	padding-top: 20px;
+	width: 200px;
+}
+
+#holder0{
+	left: 90px;
+	bottom: 400px;
+}
+
+#holder1{
+	left: 690px;
+	bottom: 400px;
+}
+
+#holder2{
+	left: 995px;
+	bottom: 200px;
+}
+
+#holderIntact{
+	left: 750px;
+	bottom: 10px;
+	padding-top: 60px;
+	border: 1px solid green;
+}
+
+#holderDamaged{
+	left: 500px;
+	bottom: 10px;
+	padding-top: 60px;
+	border: 1px solid red;
+}
+
+.holderCoins{
+	position: absolute;
+	border: 1px solid blue;
+}
+
+#holderCoins0{
+	left: 40%;
+	bottom: 250px;
+	
+	height: 70px;
+	width: 20px;
+}
+
+/*init*/
+#holderCoins1{
+	display: inline;
+	
+	left: 50px;
+	bottom: 50px;
+	
+	height: 70px;
+	width: 130px;
+}
+
+.coins{
+	position: relative;
+	
+	float: left;
+	
+	height: 50px;
+	width: 50px;
+	
+	border-radius: 50px;
+	
+	padding: 0px;
+	margin: 0px;
+	
+	margin-top: 10px;
+	margin-left: 10px;
+	
+	background-color:yellow;	
+}
+
+
+
+
+
+
+
+
+
+
+
